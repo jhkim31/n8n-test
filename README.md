@@ -1,2 +1,12 @@
 # 안녕하세요
 # n8n-test
+
+```mermaid
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[fa:fa-car Car]
+D-->|hi| C
+```
